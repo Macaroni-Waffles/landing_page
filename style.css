@@ -1,0 +1,49 @@
+body {
+    font-family: 'Roboto', 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+}
+
+.upper, .footer {
+    background-color: #1F2937;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+h4, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.lower .header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+button, .signup {
+    background-color: #3882F6;
+}
+
+.quotebox {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.who {
+    color: #1F2937;
+    font-weight: bold;
+}
