@@ -4,6 +4,18 @@ body {
 
 .upper, .footer {
     background-color: #1F2937;
+    padding: 30px 100px 100px 100px;
+    color: #E5E7EB;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top .links {
+    display: flex;
+    gap: 20px
 }
 
 h1 {
@@ -19,17 +31,57 @@ h4, a {
 
 .header {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #F9FAF8;    
 }
 
 .lower .header {
     font-size: 36px;
     font-weight: extra-bold;
+    text-align: center;
     color: #1F2937;
+    padding: 30px;
+}
+
+.aboutimg {
+    display: flex;
+    flex-grow: 2 1;
+    align-items: center;
+    gap: 8px;
+    padding: 30px;
+}
+
+.aboutimg img {
+    width: 400px;
+    height: 200px;
+    border: 3px solid red;
+    display: flex;
+}
+
+.lower {
+    padding: 0px 100px 100px 100px;
 }
 
 button, .signup {
     background-color: #3882F6;
+}
+
+.cards {
+    display:flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+
+.card {
+    width: 100px;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 15%;
+    display: flex;
 }
 
 .quotebox {
@@ -46,4 +98,19 @@ button, .signup {
 .who {
     color: #1F2937;
     font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+}
+
+button {
+    color: #E5E7EB;
+    padding: 5px 30px;
+    border: 2px solid #E5E7EB;
+    border-radius: 10%;
+}
+
+.aboutimg button {
+    border: none;
 }
