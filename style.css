@@ -63,24 +63,25 @@ h4, a {
 
 button, .signup {
     background-color: #3882F6;
+
 }
 
 .cards {
     display:flex;
     justify-content: center;
-    gap: 40px;
+    gap: 100px;
     text-align: center;
 }
 
 .card {
-    width: 100px;
+    width: 150px;
 }
 
 .card img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 3px solid #3882F6;
-    border-radius: 15%;
+    border-radius: 10%;
     display: flex;
 }
 
@@ -93,24 +94,45 @@ button, .signup {
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
+    padding: 50px 100px;
 }
 
 .who {
     color: #1F2937;
     font-weight: bold;
+    text-align: right;
+    padding: 0px 100px 50px 100px;
 }
 
 .footer {
     text-align: center;
+    padding: 50px;
 }
 
 button {
+    width: 150px;
     color: #E5E7EB;
     padding: 5px 30px;
     border: 2px solid #E5E7EB;
-    border-radius: 10%;
+    border-radius: 5px;
 }
 
 .aboutimg button {
     border: none;
 }
+
+.signup {
+    margin: 50px 50px;
+    color: #E5E7EB;
+    padding: 50px 100px;
+    border: 2px solid #E5E7EB;
+    border-radius: 15px;
+}
+
+.signup .signuplower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
